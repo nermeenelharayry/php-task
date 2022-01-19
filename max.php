@@ -70,7 +70,7 @@ if($number1>$number2 && $number1>$number3){
 
                  </div>
                  <div class="alert alert-info">
-                 <?php if(isset($messageMin)){ echo  $messageMin;} ?>
+                 <?php if(($messageMin)){ echo  $messageMin;} ?>
 
                  </div>
 
